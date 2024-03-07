@@ -1,7 +1,0 @@
-{
-  "name": "mis_cultivos_app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
