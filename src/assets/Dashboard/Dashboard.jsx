@@ -18,7 +18,7 @@ export function Dashboard({title}) {
   }, []);
 
   const getCrops = () => {
-    return fetch("http://localhost:8000/api/getCrops", { method: "POST" }).then(
+    return fetch("https://miscultivosbackend-production.up.railway.app/api/getCrops", { method: "POST" }).then(
       (res) => {
         return res.json();
       }

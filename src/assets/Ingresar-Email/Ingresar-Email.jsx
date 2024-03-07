@@ -19,7 +19,7 @@ export function IngresarEmail() {
     } else {
       let data = new FormData();
       data.append("email", email);
-      fetch("http://localhost:8000/api/validateEmail", {
+      fetch("https://miscultivosbackend-production.up.railway.app/api/validateEmail", {
         method: "POST",
         body: data,
       })

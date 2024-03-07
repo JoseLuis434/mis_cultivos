@@ -48,7 +48,7 @@ export function Register() {
     } else {
       falseValidation.style.display = "none";
       const data = new FormData(form);
-      fetch("http://localhost:8000/api/register", {
+      fetch("https://miscultivosbackend-production.up.railway.app/api/register", {
         method: "POST",
         body: data,
       })

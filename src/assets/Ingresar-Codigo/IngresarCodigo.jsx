@@ -39,7 +39,7 @@ export function IngresarCodigo() {
       if(email != null){
         data.append("email", email);
       }    
-      fetch('http://localhost:8000/api/sendCode', {
+      fetch('https://miscultivosbackend-production.up.railway.app/api/sendCode', {
         method: "post",
         body: data,
       })

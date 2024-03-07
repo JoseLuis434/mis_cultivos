@@ -32,7 +32,7 @@ export function Login({title}) {
     } else {
       falseValidation.style.display = "none";
       const data = new FormData(form);
-      fetch("http://localhost:8000/api/login", {
+      fetch("https://miscultivosbackend-production.up.railway.app/api/login", {
         method: "POST",
         body: data,
       })
